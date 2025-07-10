@@ -88,7 +88,7 @@ function addTask(e) {
     task.classList.add('task');
     task.innerHTML = `
         <p>${input.value}</p>
-        <img src="assets/trash.svg" alt="Иконка корзины">
+        <img src="../assets/trash.svg" alt="Иконка корзины">
     `;
     taskContainer.appendChild(task);
     input.value = '';
