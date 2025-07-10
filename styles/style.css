@@ -73,7 +73,7 @@ input::placeholder{
     top: 50%;
     transform: translateY(-50%);
     right: 16px;
-    background-image: url(/assets/plus.svg);
+    background-image: url(assets/plus.svg);
     background-size: cover;
     background-repeat: no-repeat;   
 }
