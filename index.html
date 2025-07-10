@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="img-wrapper">
+                <img src="/assets/Logo.svg" alt="логотип" class="logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="form-and-btn">
+            <div class="container">
+                <form action="">
+                    <input type="text" placeholder="Напишите задачу">
+                    <button class="input-btn" type="submit">Создать</button>
+                </form>
+            </div>
+        </section>
+        <section class="info-about-tasks">
+            <div class="container">
+                <div class="info-wrapper">
+                    <div class="all-tasks-info">
+                        <p class="all-tasks-info-text">Всего</p>
+                        <p class="all-tasks-info-count">0</p>
+                    </div>
+                    <div class="done-tasks-info">
+                        <p class="done-tasks-info-text">Выполнено</p>
+                        <p class="done-tasks-info-count">0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tasks-area">
+            <div class="container">
+                <div class="tasks-area-wrap">
+                    <div class="whithout-tasks">
+                        <div class="tasks-area-wrapper">
+                            <img src="/assets/Clipboard.svg" alt="иконка планшета для задач" class="tasks-area-img">
+                            <p class="tasks-area-text">Задач нет</p>
+                        </div>
+                    </div>
+                    <div class="task-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="filters">
+            <div class="container">
+                <div class="filters-wrapper">
+                    <button class="all-tasks-filter choosen">Все</button>
+                    <button class="active-tasks-filter">Активные</button>
+                    <button class="done-tasks-filter">Завершенные</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
